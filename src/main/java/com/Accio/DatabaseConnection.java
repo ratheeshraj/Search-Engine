@@ -12,7 +12,7 @@ public class DatabaseConnection {
         }
         String db = "searchaccio";
         String user = "root";
-        String pwd = "Priyansh@1902";
+        String pwd = "root";
         return getConnection(db, user, pwd);
     }
     private static Connection getConnection(String db, String user, String pwd){
